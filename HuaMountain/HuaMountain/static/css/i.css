@@ -1,0 +1,79 @@
+.background {
+	background:url(../images/src=http___hbimg.b0.upaiyun.com_26cc3e24de1fb4bc1556b60e4205e1888e9c3c211fe35-nnB1hW_fw658&refer=http___hbimg.b0.upaiyun.webp);
+	background-size:cover;
+}
+.topbox
+{
+	background-color:#CCC;
+}
+.navbox
+{
+	height:75px;
+}
+.navbox img
+{
+	height:72px;
+	animation: move 2s infinite linear alternate;
+}
+
+.text1
+{
+	font-family:LiSu;
+	font-size: 30px;
+	text-align:center;
+}
+.text2
+{
+	font-family:"幼圆";
+	font-size:36px;
+}
+.text3 {
+	font-family:LiSu;
+	font-size: 24px;
+}
+a
+{
+	text-decoration: none;
+	color:#066;
+}
+a:hover
+{
+	color:#F03;
+}
+
+#dbxxlbox 
+{
+
+	height: 120px;
+	width:100%;
+	font-family: "Courier New", Courier, monospace;
+	font-size:20px;
+	margin:0;
+
+}
+
+img:hover
+{
+	transform:scale(1.2,1.2);	
+}
+
+
+@keyframes move 
+{
+	0%
+	{
+		transform:translate(0);
+	}
+	100% 
+ 	{
+		transform:translate(200px);           
+	}
+}
+
+
+
+
+
+
+
+

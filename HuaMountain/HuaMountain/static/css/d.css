@@ -1,0 +1,114 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background:url(../images/src=http___hbimg.b0.upaiyun.com_26cc3e24de1fb4bc1556b60e4205e1888e9c3c211fe35-nnB1hW_fw658&refer=http___hbimg.b0.upaiyun.webp) no-repeat center center fixed;
+      background-size: cover;
+    }
+
+   .container {
+
+
+      width: 80%;
+      margin: 0 auto;
+      padding: 50px 0;
+      text-align: center;
+    }
+
+   .search-box {
+      width: 50%;
+      margin: 0 auto;
+      padding: 60px;
+      background-color: transparent;
+      border-radius: 10px;
+      box-shadow: 0 0 0px rgba(0, 0, 0, 0.2);
+    }
+
+    input[type="text"] {
+      width: 80%;
+      padding: 15px;
+      font-size: 18px;
+      border: none;
+      border-bottom: 2px solid #333;
+      background-color: transparent;
+      color: #333;
+      outline: none;
+    }
+    input[type="email"] {
+      width: 80%;
+      padding: 15px;
+      font-size: 18px;
+      border: none;
+      border-bottom: 2px solid #333;
+      background-color: transparent;
+      color: #333;
+      outline: none;
+    }
+
+    button {
+      padding: 15px 30px;
+      font-size: 18px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+   .footer {
+      width: 100%;
+      padding: 20px 0;
+      background-color: rgba(0, 0, 0, 0.1);
+      color: #333;
+      font-size: 14px;
+      text-align: center;
+    }
+
+   .footer a {
+      color: #4CAF50;
+      text-decoration: none;
+    }
+
+   .footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* 定义input的蓝绿色样式 */
+    input{
+        /* 背景色设置为淡蓝绿色 */
+        background-color: #87CEEB; /* 浅天蓝色，你可以根据需要调整这个颜色值 */
+
+        /* 边框样式 */
+        border: 2px solid #006400; /* 深绿色边框，与背景色形成对比 */
+        border-radius: 4px; /* 边框圆角，让输入框看起来更柔和 */
+
+        /* 字体样式 */
+        color: #FFFFFF; /* 文字颜色为白色，确保在深色背景上清晰可见 */
+        font-size: 16px; /* 字体大小 */
+        padding: 10px; /* 内边距，使文字不紧贴边框 */
+
+        /* 其他可选样式 */
+        width: 200px; /* 输入框宽度 */
+        height: 40px; /* 输入框高度 */
+
+        /* 悬浮和焦点状态样式 */
+        &:hover,
+        &:focus {
+            /* 当鼠标悬浮或聚焦时，改变边框颜色 */
+            border-color: #00CED1; /* 另一种蓝绿色，增加交互感 */
+        }
+    }
+
+    /* 注意：&:hover 和 &:focus 使用了Sass或Less的父选择器引用，原生CSS中应使用单独的类或者伪类选择器 */
+
+    /* 原生CSS的hover和focus样式 */
+    input:hover,
+    input:focus {
+        border-color: #00CED1; /* 另一种蓝绿色 */
+    }

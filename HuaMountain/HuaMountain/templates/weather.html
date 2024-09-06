@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>天气</title>
+
+  {% load static %}
+  <link href="{% static 'css/d.css' %}"  type="text/css" rel="stylesheet" %} >
+
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="search-box">
+      <h1>天气查询系统</h1>
+        <form action="/student/weather/" method="post">
+        {% csrf_token %}
+<!--        <p>-->
+<!--            <label></label><input type="text" name="uname"/>-->
+<!--        </p>-->
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+            <input type="submit" value="一键查询未来7日天气">
+        </form>
+<!--      <button onclick="searchWeather()">查询</button>-->
+    </div>
+  </div>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+  <div class="footer">
+    <p>本页面由 wwy 制作 &copy;  <a href="#">隐私政策</a> | <a href="#">使用条款</a></p>
+  </div>
+
+
+</body>
+
+</html>

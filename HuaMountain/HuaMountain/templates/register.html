@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>注册会员</title>
+    {% load static %}
+    <link href="{% static 'css/d.css' %}"  type="text/css" rel="stylesheet" %} >
+</head>
+
+<body>
+    <form action="/student/register/" method="post">
+<!--        post请求独有-->
+        {% csrf_token %}
+        <p>
+            <label for="ua">用户名:</label><input type="text" name="uname" id="ua"/>
+        </p>
+        <p>
+            <label for="pd">邮箱: </label><input type="email" name="pwd" id="pd"/>
+        </p>
+        <p>
+            <input type="submit" value="注册成为会员">
+    </form>
+  <br><br>
+  <br><br>
+  <br><br>
+  <br><br><br><br>
+  <br><br>
+  <br><br>
+  <br><br>
+  <div class="footer">
+    <p>本页面由 wwy 制作 &copy;  <a href="#">隐私政策</a> | <a href="#">使用条款</a></p>
+  </div>
+</body>
+
+</html>
+
